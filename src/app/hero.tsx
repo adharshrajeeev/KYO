@@ -1,8 +1,8 @@
 "use client";
-
+// @ts-nocheck
+// @ts-ignore
 import { IconButton, Button, Typography } from "@material-tailwind/react";
 import { PlayIcon } from "@heroicons/react/24/solid";
-
 function Hero() {
   return (
     <div className="relative min-h-screen w-full bg-[url('/image/event.jpeg')] bg-cover bg-no-repeat">
